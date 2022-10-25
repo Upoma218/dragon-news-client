@@ -32,7 +32,7 @@ const Register = () => {
                 form.reset();
                 handleUpdateUserProfile(name, photoURL);
                 handleEmailVerification();
-                toast.success('Please verify your email address.')
+                toast.success('Please verify your email address...')
             })
             .catch(e => {
                 console.error(e);
